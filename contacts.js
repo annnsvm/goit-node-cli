@@ -2,7 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { nanoid } from 'nanoid';
 
-const contactsPath = resolve('src', 'db', 'contacts.json');
+const contactsPath = resolve('db', 'contacts.json');
 
 console.log(contactsPath);
 
